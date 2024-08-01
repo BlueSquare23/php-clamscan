@@ -25,20 +25,25 @@ move infected files to a quarantine directory or remove them.
 ## Installation
 
 1. **Clone** the project to your server:
-
-   `git clone https://github.com/bluesquare23/php-clamscan.git`
-   `cd php-clamscan`
+```bash
+git clone https://github.com/BlueSquare23/php-clamscan.git
+cd php-clamscan
+```
 
 2. **Install Dependencies**: Ensure PHP and ClamAV are installed on your system.
 
 3. **Set Up Web Server**: Place the project files in your web site's document root.
-   `cp eicar.txt check_scan.php clamscan.php start_scan.php /path/to/your/sitefiles/`
+```bash
+cp eicar.txt check_scan.php clamscan.php start_scan.php /path/to/your/sitefiles/
+```
 
 4. **Permissions**: Ensure the web server user has write permissions to the directory where `clamscan` output and PID files will be stored.
 
-5. **Access the Application**: Open your web browser and navigate to the application. Example:
-
-   `http://yourdomain.com/clamscan.php`
+5. **Access the Application**: Open your web browser and navigate to the application.
+ * Example:
+```
+http://yourdomain.com/clamscan.php
+```
 
 6. **Testing the Application**: You can test everything is working properly by running a scan. If it reports the included `eicar.txt` file then you know everything is working properly.
 
@@ -66,5 +71,5 @@ This project is licensed under the MIT License. See the [LICENSE.txt](LICENSE.tx
 
 ## Contact
 
-For any issues or questions, please open an issue on the [GitHub repository](https://github.com/bluesquare23/php-clamscan/issues).
+For any issues or questions, please open an issue on the [GitHub repository](https://github.com/BlueSquare23/php-clamscan/issues).
 
