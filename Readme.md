@@ -1,4 +1,4 @@
-# Linux Malware Cleaner
+# Clamscan Linux Malware Scanner
 
 ![clamav](clamav.png)
 
