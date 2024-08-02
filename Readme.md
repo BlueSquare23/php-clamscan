@@ -9,7 +9,7 @@ move infected files to a quarantine directory or remove them.
 
 ## Features
 
-- **Directory Path**: Optionally specify a directory to scan.
+- **Directory Path**: Optionally specify a directory to scan. Defaults to site's base directory.
 - **Scan Options**: Choose from the following options:
   - **Show Only Infected (`-i`)**: Display only infected files.
   - **Move to Quarantine (`--move`)**: Move infected files to a `.quarantine` directory.
