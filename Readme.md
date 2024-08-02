@@ -16,6 +16,8 @@ move infected files to a quarantine directory or remove them.
   - **Remove Infected Files (`--remove`)**: Delete infected files.
 - **Progress Indicator**: Shows a spinner while a scan is in progress.
 
+![Web Interface](php-clamscan.png)
+
 ## Requirements
 
 - PHP 7.4 or later
